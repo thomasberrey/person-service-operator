@@ -1,0 +1,6 @@
+# Use the 'create api' subcommand to add watches to this file.
+- group: charts.tberrey.org
+  version: v1alpha1
+  kind: PersonService
+  chart: helm-charts/test-app
+#+kubebuilder:scaffold:watch
