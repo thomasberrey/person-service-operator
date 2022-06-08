@@ -1,4 +1,4 @@
-apiVersion: charts.tberrey.org/v1alpha1
+quay.io/tberrey/person-serviceapiVersion: charts.tberrey.org/v1alpha1
 kind: PersonService
 metadata:
   name: personservice-sample
@@ -6,7 +6,7 @@ spec:
   config:
     greeting: Hello from inside the operator!!!!
   deployment:
-    image: quay.io.tberrey/person-service
+    image: quay.io/tberrey/person-service
     includeHealthChecks: false
     replicas: 1
     version: v1.0.0-test
